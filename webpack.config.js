@@ -10,6 +10,11 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "[name][contenthash].js",
   },
+  devServer: {
+    static: {
+      directory: path.resolve(__dirname, "dist"),
+    },
+  },
   module: {
     rules: [
       {
