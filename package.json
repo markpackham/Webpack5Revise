@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/markpackham/Webpack5Revise#readme",
   "devDependencies": {
+    "uuid": "^8.3.2",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
   }
